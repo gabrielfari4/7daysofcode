@@ -1,0 +1,33 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 4em;
+    margin: 0 2em;
+    color: var(--cor-da-fonte);
+}
+.menu__lista {
+    display: flex;
+}
+
+.item__lista {
+    padding: 0 2em;
+}
+
+.cabecalho__cadastrar {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__cadastrar--botao {
+    background-color: var(--cor-botao);
+    border-radius: 8px;
+    display: block;
+    color: var(--cor-de-fundo);
+    padding: 0.8em 1em;
+    text-decoration: none;
+    margin-left: 2em;
+}
+
+
+
