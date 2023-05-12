@@ -12,11 +12,25 @@
 
 .item__lista {
     padding: 0 2em;
+    
+}
+
+.item__link {
+    text-decoration: none;
+    color: var(--cor-da-fonte);
 }
 
 .cabecalho__cadastrar {
     display: flex;
     align-items: center;
+}
+
+.cabecalho__cadastrar--entrar {
+    border: none;
+    background: none;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .cabecalho__cadastrar--botao {
@@ -29,5 +43,33 @@
     margin-left: 2em;
 }
 
+.primeira__seçao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em auto;
+}
+
+.primeira__seçao--sobre {
+    color: var(--cor-botao);
+    margin-bottom: 2em;
+    font-weight: 600;
+}
+
+.primeira__seçao--titulo {
+    color: var(--cor-fonte-preta);
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.primeira__seçao--texto {
+    color: var(--cor-da-fonte);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto 29vw;
+    line-height: 1.5em;
+}
 
 
