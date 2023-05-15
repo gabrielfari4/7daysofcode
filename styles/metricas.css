@@ -1,0 +1,32 @@
+.metricas {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 8em 5em;
+}
+
+.metricas__projetos, .metricas__colaboradores, .metricas__downloads, .metricas__reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto 4em;
+    align-items: left;
+    width: 15vw;
+}
+
+.metricas__titulo {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-botao);
+    padding-bottom: 1.4rem;
+}
+
+.metricas__subtitulo {
+    font-size: 18px;
+    color: var(--cor-fonte-preta);
+    padding-bottom: 1rem;
+}
+
+.metricas__texto {
+    font-weight: 400;
+    color: var(--cor-da-fonte);
+}
