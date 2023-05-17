@@ -1,5 +1,7 @@
 @import url(styles/header.css);
 @import url(styles/metricas.css);
+@import url(styles/talentos.css);
+@import url(styles/vagas.css);
 
 :root {
 
@@ -8,6 +10,7 @@
     --cor-botao: #8E2424;
     --cor-da-fonte: #667085;
     --cor-fonte-preta: #101828;
+    --cor-da-borda: #EAECF0;
 
 }
 

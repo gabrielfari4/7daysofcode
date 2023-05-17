@@ -8,8 +8,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: auto 4em;
-    align-items: left;
+    margin: auto 5em;
+    text-align: left;
     width: 15vw;
 }
 
