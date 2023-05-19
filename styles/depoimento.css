@@ -1,0 +1,44 @@
+.depoimento {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.depoimento__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    padding: 3.5em 0;
+}
+
+.depoimento__titulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor-botao);
+}
+
+.depoimento__texto {
+    font-size: 36px;
+    color: var(--cor-fonte-preta);
+    text-align: center;
+    padding: 0.8em 2em;
+}
+
+.imagem__avatar {
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+    padding: 0 0 1em;
+}
+
+.depoimento__nome {
+    color: var(--cor-fonte-preta);
+    padding: 0 0 0.5em;
+}
+
+.depoimento__cargo{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-da-fonte);
+}
